@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  height: 100%!important;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+    position: absolute;
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+   
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 200px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.ui.header {
+  margin: 0!important;
+   margin-top: 0!important;
+}
+
+.ui.card{
+  width: 100%!important;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1)!important;
+}
+
+.ui.items>.item>.image+.content{
+  padding-left: 0.5em!important; 
+}
+
+.ui.items>.item .meta{
+  margin: .3em 0!important;
+}
+
+.ui.items>.item>.content>.header{
+  margin: 0!important;
+}
+
+.ui.items>.item>.content>.header:not(.ui){
+  font-size: 1.1em!important;
+}
+
+.ui.dropdown .menu>.item {
+  padding: 0.7em!important;
+}
+
+.ui.dropdown .menu>.item>.icon{
+  margin-right: 0!important;
+}
+
+.ui.comments .comment .avatar{
+  margin: 0!important; 
+}
+
+.ui.input input{
+      padding: .48em 1em;
+}
+
+
+.left-side{
+  position: absolute;
+  height: 100%;
+  background-color: slategray;
+  width: 50px;
+}
+
+.right-side{
+  margin-left: 60px;
+  padding: 10px 10px 10px 0;
+  height: 100vh;
+}
+
+.home-container{
+  width: 70em;
+  height: 90vh;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.welcome-container{
+  width: 70em;
+  padding-top: 9em!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.msg-list{
+  height: 73vh;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.msg-list:hover{
+  overflow-y: scroll;
+}
+
+.label-content{
+    height: 522px;
+    overflow: hidden;
+    padding: 10px 2px 2px 2px;
+}
+
+.label-content:hover{
+    overflow-y: scroll;
+}
+
+.label-header{
+  padding: 10px;
+  margin-bottom: 2px;
+  max-height: 43px;
+  background: #f6f7f9;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .20);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.label-add{
+  margin-top: -25px; 
+  float: right;
+}
+
+.label-addoptions{
+  margin-top: -25px; 
+  text-align: center;
+  margin-left: 35px;
+}
+
+.no-padding{ padding: 0;}
+
+.segment  {
+      box-shadow: 0 1px 2px rgba(0,0,0,.1)!important;
+      border-radius: .1rem!important;
+      border: none!important;
+}
+
+.post-content{
+   margin-top: -10px!important;
+   padding-top: 0!important;
+   border-top: 0!important;
+}
+
+.add-space{
+  
+    color: #ccc;
+    padding: 0.7em;
+    border-radius: .28571429rem;
+    border: 4px dotted rgba(34,36,38,.15)
+}
+
+.add-label{
+   text-align: center;
+    color: #ccc;
+    padding: 0.6em;
+    border-radius: .28571429rem;
+    border: 4px dotted rgba(34,36,38,.15)
+}
+
+.message-input{
+    border-radius: 7px;
+    padding: 0.7em;
+    border: 2.9px solid #e5e5e5;
+}
+
+.reaction-container{
+    max-width: 300px;
+    height: 33px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.reaction{
+  float: left;
+  border-right: 1px solid rgba(0,0,0,.05);
+  padding: 0.5em;
+  background-color: #f2f8fa;
+  color: #4078c0;
+}
+
+.add-reaction{
+  float: left;
+  padding: 0.5em;
+  color: #aaa;
+}
+
+.tm-comments{
+   float: right;
+   padding: 0.5em;
+}
+
+.option{
+  float:right;
+  color: rgba(0,0,0,.4);
+}
+
+.editor{
+    background: #ffffff;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    margin-left: 1rem;
+    padding: 3em 10em 5em 10em;
+    border-radius: .4rem;
+}
+
+.note-container{
+  height:90vh;
+}
+
+.tm-scrolllist{
+    overflow: hidden;
+}
+
+.tm-scrolllist:hover{
+    overflow-y: scroll;
+}
